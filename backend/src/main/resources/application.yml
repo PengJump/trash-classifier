@@ -1,0 +1,10 @@
+server:
+  port: 8080
+spring:
+  servlet:
+    multipart:
+      max-file-size: 20MB
+      max-request-size: 20MB
+trash:
+  model:
+    path: ${TRASH_MODEL_PATH:trashnet.onnx}
